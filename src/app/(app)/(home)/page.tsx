@@ -16,7 +16,6 @@ import {
   IcTwotoneSignpost,
   MdiFlask,
   MdiLightbulbOn20,
-  RMixPlanet,
 } from '~/components/icons/menu-collection'
 import { isSupportIcon, SocialIcon } from '~/components/modules/home/SocialIcon'
 import { usePresentSubscribeModal } from '~/components/modules/subscribe'
