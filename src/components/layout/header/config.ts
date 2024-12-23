@@ -13,6 +13,7 @@ import {
   IonBook,
   MdiFlask,
   MdiLightbulbOn20,
+  TrainToIcon,
 } from '~/components/icons/menu-collection'
 
 export interface IHeaderMenu {
@@ -79,6 +80,12 @@ export const headerMenuConfig: IHeaderMenu[] = [
     title: '友链',
     icon: h(FaSolidUserFriends),
     path: '/friends',
+  },
+  {
+    title: '开往',
+    icon: h(TrainToIcon),
+    path: 'https://www.travellings.cn/go.html',
+    
   },
 
   {
